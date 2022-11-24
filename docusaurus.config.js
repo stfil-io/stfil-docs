@@ -57,19 +57,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'STFIL Docs',
+        title: '',
         logo: {
           alt: 'STFIL Logo',
           src: 'img/logo.svg',
           href: '#',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {
             href: 'https://github.com/stfil-io/stfil-docs',
             label: 'GitHub',
