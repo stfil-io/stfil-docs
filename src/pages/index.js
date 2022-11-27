@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <Redirect to={
             translate({
-                message: '/docs/intro',
+                message: '/docs/introduction',
                 description: 'home redirect',
             })
         } />
