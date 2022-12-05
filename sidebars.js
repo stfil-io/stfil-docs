@@ -38,6 +38,15 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Guide',
+      items: [
+          'guide/intro',
+          'guide/stfil',
+          'guide/emergency_model',
+      ],
+    },
+    {
+      type: 'category',
       label: 'FDO',
       items: [
         {
