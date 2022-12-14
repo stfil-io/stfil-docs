@@ -43,6 +43,7 @@ const sidebars = {
           'guide/intro',
           'guide/stfil',
           'guide/emergency_model',
+        'guide/debt',
       ],
     },
     {
@@ -106,6 +107,16 @@ const sidebars = {
       type: 'category',
       label: 'Developers',
       items: ['introduction'],
+    },
+    {
+      type: 'category',
+      label: 'milestones',
+      items: [
+        'milestones/Aquarius',
+        'milestones/Bootes',
+        'milestones/Capricorn',
+        'milestones/Draco',
+      ],
     },
   ],
 
