@@ -86,6 +86,80 @@ const config = {
       },
       footer: {
         style: 'light',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Getting Started',
+                to: 'docs/introduction',
+              },
+              {
+                label: 'FAQ',
+                to: 'docs/faq/stfil',
+              },
+              {
+                label: 'FDO',
+                to: 'docs/fdo/governance/info',
+              },
+            ],
+          },
+              {
+                title: 'Social Links',
+                items: [
+                  {
+                    label: 'GitHub',
+                    to: 'https://github.com/stfil-io',
+                  },
+                  {
+                    label: 'Forum',
+                    to: 'https://forum.stfil.io',
+                  },
+                    {
+                        label: 'Twitter',
+                        to: 'https://twitter.com/stfil_io',
+                    },
+                ],
+              },
+          {
+            title: 'Learn',
+            items: [
+              {
+                label: 'Introduction',
+                to: 'https://www.stfil.io/terms/',
+              },
+              {
+                label: 'Guides',
+                to: 'https://www.stfil.io/privacy/',
+              },
+              {
+                label: 'Developers',
+                to: 'https://www.stfil.io/privacy/',
+              },
+            ],
+          },
+          {
+            title: 'Quick Links',
+            items: [
+              {
+                label: 'Terms & Conditions',
+                to: 'https://www.stfil.io/terms/',
+              },
+              {
+                label: 'Privacy Policy',
+                to: 'https://www.stfil.io/privacy/',
+              },
+            ],
+          },
+          ],
+        logo: {
+          alt: 'STFIL Logo',
+          // This default includes a positive & negative version, allowing for
+          // appropriate use depending on your site's style.
+          src: '/img/logo.svg',
+          width: 200,
+          href: 'https://www.stfil.io',
+        },
         copyright: `Copyright © ${new Date().getFullYear()} STFIL All rights reserved.`,
       },
       prism: {
