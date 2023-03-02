@@ -9,7 +9,7 @@ sidebar_position: 1
 
 
 ## Why STFIL?
-任何一方对用户的资金有多大的控制权？
+STFIL Protocol has been audited and secured. The protocol is completely open source, which allows any
 
 
 ## STFIL 如何工作？
