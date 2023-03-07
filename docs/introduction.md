@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduce
+# STFIL Document Hub
 
 STFIL DAO is a decentralized autonomous organization (DAO) built for liquidity staking on the Filecoin network. It aims to be community-owned, decentralized, trustless, and compatible with staking on Filecoin. STFIL allows users to earn block rewards without locking assets or maintaining storage provider infrastructure.
 

@@ -1,5 +1,5 @@
-# 其他
+# Others
 
-提案流程将随着 STFIL DAO 社区的投入而发展和改进。
+The proposal process will evolve and improve with the involvement of the STFIL DAO community.
 
 

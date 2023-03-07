@@ -1,10 +1,10 @@
-# 投票机制
+# Voting mechanism
 
- 1.  STFIL Snapshot 被选为投票工具；
+ 1.  STFIL Snapshot was selected as a voting tool;
 
- 2.  不需要支付gas；
+ 2.  No need to pay gas;
 
- 3.  确保透明度；
+ 3.  ensure transparency;
 
- 4.  将治理参与扩大到所有 FDAO 持有者；
+ 4.  Extend governance participation to all FDO holders;
 

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'STFIL Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'STFIL are cool',
   url: 'https://stfil.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,15 +24,15 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh'],
+    locales: ['en'],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
       },
       // 如果你不需要覆盖默认值，你可以忽略这个语言（比如 zh-Hans）
-      "zh": {
-        htmlLang: 'cn-ZH',
-      },
+      // "zh": {
+      //   htmlLang: 'cn-ZH',
+      // },
     },
   },
 
@@ -96,7 +96,7 @@ const config = {
               },
               {
                 label: 'FAQ',
-                to: 'docs/faq/stfil',
+                to: 'docs/overview/stfil',
               },
               {
                 label: 'FDO',

@@ -1,6 +1,6 @@
 
-# Capricorn (2023年1月)
+# Capricorn (2023.02)
 
-☞ _**STFIL DAO**_ 相关合约开发工作。
+☞ _**STFIL DAO**_ smart contract development related work。
 
-☞ _**STFIL DAO**_ 合约的测试，_**STFIL**_ 提交审计，sp审计。
+☞ _**STFIL DAO**_ test of contract，_**STFIL**_ Submit security audit, sp audit..

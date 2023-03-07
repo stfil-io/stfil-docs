@@ -1,21 +1,21 @@
-# 提案模版
+# Proposal Template
 
-提案通常包括：
+A proposal typically includes:
 
-**标题** - 给提案起个名字
+**Title** - Give the proposal a name.
 
-**摘要** - 总结提案的两三个句子。
+**Abstract** - Summarize the proposal in two or three sentences.
 
-**动机** - 关于 STFIL DAO 社区为何应实施该提案的声明。
+**Motivation** - A statement about why the STFIL DAO community should implement this proposal.
 
-**基本原则** - 说明提案如何与 STFIL DAO 社区的使命和指导价值观保持一致。
+**Basic Principles** - Explain how the proposal aligns with the mission and guiding values of the STFIL DAO community.
 
-**详细规划** - 将使用的平台和技术的详细分类。
+**Detailed Plan** - Categorize the platforms and technologies that will be used in detail.
 
-**实施步骤** - 实施提案的步骤，包括相关成本、人力和其他适用的每个步骤的资源。
+**Implementation Steps** - The steps to implement the proposal, including relevant costs, personnel, and resources for each applicable step.
 
-**时间表** - 相关的时间细节，包括但不限于开始日期、里程碑和完成日期。
+**Timeline** - Relevant time details, including but not limited to start date, milestones, and completion date.
 
-*如有必要，作者可以向任何模板添加其他字段，以充分传达 SIP 草案的意图、细节和含义。*
+*If necessary, the author can add additional fields to any template to fully convey the intent, details, and meaning of the SIP draft.*
 
-未通过相应批准程序并重新提交的提案还应包括： 链接到原始提案、未获批准的原因 、所做的更改以及为什么现在应该批准
+Proposals that have not been approved through the appropriate approval process and resubmitted should also include: a link to the original proposal, reasons for disapproval, changes made, and why it should be approved now.

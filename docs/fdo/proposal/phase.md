@@ -1,29 +1,28 @@
-# 提案阶段
+# Proposal Phase
 
-### 阶段 1：SIP 发起
+### Stage 1: SIP Proposal
 
-SIP Idea 在 GitHub 中以issue的形式提交，提交 SIP 创意的一个或多个人将被称为作者（请注意，多个成员可以就一个 SIP 创意一起工作，但只能提交一次）。ASIP 想法通过 GitHub 非正式地收集评论 7 天。作者不能编辑原始帖子——如果作者想对原始想法提出更改，他们必须通过评论来做到这一点。
+The SIP idea is submitted as an issue on GitHub, and the individual or individuals who submit the SIP idea are referred to as the authors. Please note that multiple members can work together on a single SIP idea, but it can only be submitted once. The ASIP idea is informally collected for comments on GitHub for 7 days. Authors cannot edit the original post - if they want to make changes to the original idea, they must do so through comments.
 
-### 阶段 2：审核
+### Stage 2: Review
 
-SIP 草案由 STFIL 基金会聘请的项目管理团队审查，该团队将提供 SIP 分析报告，以确保已确定成本、实施步骤、法律考虑、第三方审查要求、潜在利益冲突以及任何进一步的影响. 鉴于 SIP 作者可能会在几乎没有资源的情况下提交草稿，因此 DAO 社区的这项服务可确保 DAO 成员有足够的关于提案的信息，以便在投票时做出明智的决定。
+The SIP draft is reviewed by a project management team hired by the STFIL Foundation, which provides a SIP analysis report to ensure that costs, implementation steps, legal considerations, third-party review requirements, potential conflicts of interest, and any further impact have been identified. As SIP authors may submit drafts with almost no resources, this service of the DAO community ensures that DAO members have sufficient information about the proposal to make informed decisions when voting.
 
-SIP 草案 + 分析报告 (DAR) 包由一组管理员审核，并根据其是否符合 DAO 批准的指南来批准或不批准。如果获得批准，它将成为待处理的 SIP 并进入第 3 阶段。如果未获得批准，则有资格重新提交，但违反法律或合理怀疑欺诈或其他误导性信息的情况除外。
+The SIP draft + analysis report (DAR) package is reviewed by a group of administrators and approved or rejected based on whether it complies with the guidelines approved by the DAO. If approved, it becomes a pending SIP and enters Stage 3. If not approved, it is eligible for resubmission, except in cases of legal violations or reasonable suspicion of fraud or other misleading information.
 
+### Stage 3: Marking After Review
 
-### 阶段 3：审核后标记
+Pending SIPs that have passed the SIP review process are marked as "Ready for Voting." The "Ready for Voting" label is given to pending SIPs whose costs, content, and impact are considered straightforward and without risk to the DAO. Any pending SIP marked as "Ready for Voting" will move to Stage 4.
 
-已通过 SIP 审核的待处理 SIP 被标记为“立即投票”。“立即投票”标签被授予未决的 SIP，其成本、内容和影响被认为是直截了当的，对 DAO 的没有风险。任何标记为“直接投票”的待处理 SIP 将跳到第 4 阶段。
+### Stage 4: Voting
 
-### 阶段 4：投票
+Drafts that have passed their respective approval processes become live SIP snapshots during the next SIP publishing period. After going live on Snapshot, Live SIPs are open for voting until the weekly voting period ends. Administrators are the only ones who can publish SIPs on Snapshot as they must confirm that everyone has gone through the correct approval process.
 
-已通过各自批准流程的草稿将在下一个 SIP 发布期间成为实时 SIP 快照。在 Snapshot 中上线后，Live SIP 将开放投票，直到每周投票结束。管理员是唯一可以将 SIP 发布到 Snapshot 的人，因为他们必须确认每个人都经过了正确的审批流程。
+### Stage 5: Results
 
-### 阶段 5：结果产生
+If a Live SIP receives no votes or is tied at the end of the voting period, it is marked as "Stalled" and is eligible for resubmission. In all other cases, the Live SIP moves to one of two final SIP categories. If the author contacts the administrator, the rejected final SIP can be resubmitted through the appropriate resubmission template. Accepted final SIPs move into the implementation stage.
 
-如果 Live SIP 没有获得任何投票或在投票截止时间之前处于平局，它将被标记为“停滞”并有资格重新提交。在所有其他情况下，Live SIP 将移至两个最终 SIP 类别之一。如果作者联系管理员，可以通过适当的重新提交模板重新提交被拒绝的最终 SIP。接受的最终 SIP 进入实施阶段。
+### Stage 6: Implementation
 
-### 阶段 6：实施
-
-对于接受的最终 SIP，将根据 SIP 模板中概述的步骤开始实施。STFIL 基金会聘请的项目管理团队负责确保这件事发生，但不负责自己做。
+For accepted final SIPs, implementation begins according to the steps outlined in the SIP template. The project management team hired by the STFIL Foundation is responsible for ensuring that this happens, but they are not responsible for doing it themselves.
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 ---
 
-# 词汇表
+# Glossary
 
 您可能会在 STFIL 文档中偶然发现一些不熟悉的概念。本节列出了文档中的常用术语，以便于访问、学习和插件/主题开发。
 

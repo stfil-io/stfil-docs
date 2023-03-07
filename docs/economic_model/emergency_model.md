@@ -1,5 +1,8 @@
+---
+sidebar_position: 4
+---
 
-# 经济模型
+# Economic Model
 
 _**STFIL**_ 协议将用户的质押的资金提供给精心挑选的存储提供商进行代币质押，获得的收益重新铸造stFIL，再分给用户，用户可以在存款后的 24 小时内收到质押奖励，而无需等待验证器激活。那么如何分配收益，成为所有参与者最关心的内容。
 
@@ -17,7 +20,7 @@ $$ _S<sub>base</sub>_ = \frac{_C<sub>sp</sub>_}{_C<sub>sp</sub>_ + _C<sub>assets
 
 若 $ _C<sub>sp</sub>_ = 7 _usdt_ $ 时，那么在不同的FIL价格下波动：
 
-![img.png](img.png)
+![img.png](../img.png)
 
 ### 鼓励
 
@@ -43,4 +46,4 @@ $$  _UR<sub>base</sub>_ \leq _UR<sub>current</sub>_ \leq 1-R $$
 
 若数学公式: $ _S<sub>award</sub>_  $= 20% ，数学公式: $ _UR<sub>base</sub>_ $= 70%则：
 
-![float_img.png](float_img.png)
+![float_img.png](../float_img.png)

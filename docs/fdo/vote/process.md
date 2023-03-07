@@ -1,6 +1,5 @@
-# 投票流程
+# Voting Process
 
-管理员在确保每个人都经过正确的审批流程后，将 SIP 发布到 FilSnapshot。每周四晚上9点发布新的 SIP。这也是为期六天的投票窗口打开的时候。DAO 成员对快照进行投票。一个 FDAO 等于一票。由于投票不能分成分数，并且投票总数不应超过铸造的代币数量，如果投票者拥有分数数量的代币（即，100.1 个代币将产生100 票，100.9 个代币）。Live SIP 的投票选项是“赞成”和“反对”。投票“赞成”意味着选民赞成完全按原样实施 SIP。投票“反对”意味着投票反对完全按原样实施 AIP——您可以投票“反对”以鼓励作者在进行更改后重新提交 SIP。
+The administrator publishes the SIP to FilSnapshot after making sure everyone goes through the correct approval process. A new SIP is released every Thursday at 9pm. This is also when the six-day voting window opens. DAO members vote on snapshots. One FDAO equals one vote. Since votes cannot be divided into fractions, and the total number of votes should not exceed the number of tokens minted, if a voter has a fractional amount of tokens (ie, 100.1 tokens will generate 100 votes, 100.9 tokens). The voting options for Live SIP are "Yes" and "No". A vote "yes" means the voter approves of implementing SIP exactly as it is. Voting "No" means voting against implementing the AIP exactly as it is - you can vote "No" to encourage authors to resubmit the SIP after making changes.
 
-每周批次中每个提案的投票将开放投票，为期六天，于下周三晚上9点截止。获得多数“赞成”票的提案将进入实施阶段。如果作者联系版主启动此过程，被拒绝的提案将有机会通过适当的重新提交模板重新提交。如果在投票结束时间之前，Live SIP 没有获得任何投票或并列，它将被标记为“停滞”并有资格重新提交。
-
+Voting on each proposal in the weekly batch will be open for voting for six days, ending next Wednesday at 9pm. Proposals that receive a majority of "yes" votes will advance to the implementation phase. Rejected proposals will have the opportunity to be resubmitted via the appropriate resubmission template if the author contacts a moderator to initiate this process. If a Live SIP does not receive any votes or ties by the voting close time, it will be marked as "stalled" and eligible for resubmission.

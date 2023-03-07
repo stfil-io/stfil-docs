@@ -1,43 +1,43 @@
-# 提案类别
+# Proposal Categories
 
-**SIP** （*STFIL Improvement Proposal*）可以分为：社区提案、经济建议、合约/技术提案、存储提供商入职。
+**SIP** (STFIL Improvement Proposal) can be divided into: Community Proposals, Economic Proposals, Contract/Technical Proposals, Storage Provider Onboarding.
 
-## 社区提案
+## Community Proposals
+`
+Proposal and decision-making: Community Committee
 
-提议和决定：社区委员会
+Examples of proposals included in this category:
 
-此类别中包含的提案示例：
+1.  Funding and support for community projects (e.g. documentation, audits, Discord events, etc.)
 
-1.  社区项目的拨款和资助（例如文档、审核、Discord 活动等）
+2.  Supporting and incentivizing organic social outreach
 
-2.  支持和激励有机的社会外展
-
-3.  组织与社区相关的活动
+3.  Organizing community-related events
 
 
-## 经济建议
+## Economic Proposals
 
-提议和决定：社区委员会
+Proposal and decision-making: Community Committee
 
-此类别中包含的提案示例：
+Examples of proposals included in this category:
 
-1. 国库持有的储备资产构成、风险比率和RFV
+1. Composition of the Treasury's reserve assets, risk ratio, and RFV
 
-2. 绑定条款
+2. Binding terms
 
-3. 质押支付设置
+3. Setting staking rewards
 
-## 合约/技术提案
+## Contract/Technical Proposals
 
-提议和决定：技术委员会
+Proposal and decision-making: Technical Committee
 
-此类别中包含的提案示例：
+Examples of proposals included in this category:
 
-1.  合约升级
+1. Contract upgrades
+    
+2. Technical upgrades
 
-2.  技术升级
+3. Auditing
 
-3.  审计
-
-4.  监控
+4. Monitoring
 

@@ -1,10 +1,10 @@
 
-# Bootes (2023年1月)
+# Bootes (2023.02)
 
-☞ 开放 _**STFIL DAO**_ 网站（<https://dao.stfil.io>）。其中包含 介绍FDO经济学，治理，提案等内容。
+☞ Open _**STFIL DAO**_ website（<https://dao.stfil.io>）.Including FDO economics, governance, proposal content, etc.
 
-☞ ***开放存储提供商（SP）***网站（<https://sp.stfil.io>）。其中包含 入职流程，贷款流程，挖矿收益，平台规则等介绍。
+☞ Open _**Storage Provider（SP）**_ website（<https://sp.stfil.io>）.Including the entry process, loan process, mining income, platform rules and other introductions, etc.
 
-☞ ***开放持币人（Assets）***网站（<https://stake.stfil.io>）。其中包含质押收益年利率，质押规则，项目等介绍。
+☞ Open _**User（Assets）**_ website（<https://stake.stfil.io>）.Including the annual interest rate of pledge income, pledge rules, projects, etc.
 
-☞ 完善 _**STFIL DAO**_ 官网（<https://www.stfil.io>）内容。包括赏金计划，ILS入口，等。
+☞ Complete _**STFIL DAO**_ website（<https://www.stfil.io>）.Including bug bounty programs, ILS entry, etc.

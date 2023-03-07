@@ -1,10 +1,10 @@
 
-# Aquarius (2022年12月)
+# Aquarius (2022.12)
 
-☞ 启动 **_STFIL Dao_** 官网（<https://www.stfil.io>）。完善官网主题，**_STFIL DAO_**，工作机制，代币经济学，系统架构等介绍。
+☞ Launch **_STFIL Dao_** website（<https://www.stfil.io>）。Improve the official website theme，**_STFIL DAO_**，working mechanism, token economics, system architecture introduction, etc。
 
-☞ 启动 **_STFIL Dao_** 社交账号，Forum,Twitter, Github
+☞ Launch **_STFIL Dao_** Social media account，Forum,Twitter, GitHub
 
-☞ **_STFIL DAO_** 白皮书发布。
+☞ Launch **_STFIL DAO_** White paper。
 
-☞ 开放 **_STFIL DAO_** 文档中心网站（<https://docs.stfil.io>）。其内容包含 介绍stFIL经济学，合约解读，规则解读。
+☞ Open **_STFIL DAO_** Document hub website（<https://docs.stfil.io>）。Including stFIL economics, contract interpretation, and rule interpretation.
