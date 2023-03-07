@@ -1,2 +1,7 @@
-# 简介
-STFIL 社区通过支持生态系统基金的去中心化治理框架 STFIL DAO 进行自我管理。DAO 遵循提案流程，任何 STFIL 生态的参与者都有对提案的投票权，以促进多样化和自我维持的生态系统。
+---
+sidebar_position: 2
+---
+
+# Introduction
+
+The STFIL community governs itself through the STFIL DAO, a decentralized governance framework that supports the Ecosystem Fund. The DAO follows a proposal process, and any participant in the STFIL ecosystem has the right to vote on proposals to promote a diverse and self-sustaining ecosystem.

@@ -1,16 +1,16 @@
-# 宪法原则
+# Constitutional Principles
 
-1.  STFIL DAO 是一个去中心化的自治组织。其首要目标是以去中心化、可访问的方式将坚实可靠的储备货币带到世界的每个角落。
+1. STFIL DAO is a decentralized autonomous organization. Its overarching goal is to bring a solid and reliable reserve currency to every corner of the world in a decentralized, accessible manner.
 
-2.  治理原则为精英管理，对 FDO 持有者进行民主监督。我们相信，一个重视并强调深度沉浸在 STFIL DAO 社区的知识渊博和敬业的个人的输入的治理结构，本质上将为整个 DAO 和所有 FDO 持有者带来最佳结果。执行权由对协议成功做出最大贡献的人持有。
+2. The governance principle is meritocracy and democratic supervision of FDO holders. We believe that a governance structure that values and emphasizes the input of knowledgeable and dedicated individuals deeply immersed in the STFIL DAO community will inherently lead to the best outcomes for the entire DAO and all FDO holders. Executive rights are held by those who have contributed most to the success of the protocol.
 
-3.  DAO 期望治理参与者以诚信和相互尊重的方式运作和沟通。
+3. The DAO expects governance participants to operate and communicate with integrity and mutual respect.
 
-4.  建议和讨论应有合理的论据、事实和数据支持。
+4. Proposals and discussions should be supported by sound arguments, facts and data.
 
-5.  在考虑如何投票和治理时，应该问以下核心问题：“什么可以最大限度地提高 STFIL DAO 社区的长期福祉？” 这应该是支撑整个治理的主要指导原则。
+5. When considering how to vote and govern, the following core question should be asked: "What maximizes the long-term well-being of the STFIL DAO community?" This should be the main guiding principle underpinning overall governance.
 
-6.  作为 DAO，我们拒绝任何形式的骚扰。任何针对 STFIL DAO 社区的任何人的滥用行为都将受到严厉的处罚和影响。
+6. As a DAO, we reject any form of harassment. Any abuse against anyone in the STFIL DAO community will be severely punished and affected.
 
-7.  治理应在链上和链下进行。DAO 力求在建立大部分共识，并在链上投票和执行大部分决策。
+7. Governance should be on-chain and off-chain. The DAO strives to establish most of the consensus, and vote and execute most of the decisions on the chain.
 

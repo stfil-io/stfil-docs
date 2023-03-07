@@ -1,15 +1,19 @@
-# 一般准则
+---
+sidebar_position: 1
+---
 
-每年，DAO 都会进行一次投票，以确定哪些 DAO 成员将在 STFIL 基金会（DAO 的“董事会”）的一个特别委员会中任职。董事会的目的是管理 DAO 提案并服务于社区的愿景。最初的董事会将只任职六个月。
+# General Guidelines
 
-根据代币持有人的多数票，董事会成员可以在任期结束前被免职和更换。
+Each year, the DAO conducts a vote to determine which DAO members will serve on a special committee of the STFIL Foundation (the DAO's "board"). The purpose of the Board is to manage the DAO proposal and serve the vision of the community. The initial board will only serve six months.
 
-实施的总成本必须明确，提案才能进行投票。
+Board members can be removed and replaced before their term ends, based on a majority vote of token holders.
 
-DAO 成员必须搜索过去的提案，以确保他们打算为其编写提案的任何想法尚未提交。
+The total cost of implementation must be known before a proposal can be voted on.
 
-如果建议的提案与当前正在投票的提案直接冲突，则在对第一个提案做出决定之前，第二个提案不应进行投票，以避免批准反对的要求。
+DAO members must search past proposals to ensure that any ideas they intend to write proposals for have not yet been submitted.
 
-与另一个已获批准的提案直接冲突的提案提案在原提案实施后三个月内不能进行投票，以免浪费社区资产。
+If a proposed proposal directly conflicts with a proposal that is currently being voted on, the second proposal should not be voted on until a decision is made on the first, to avoid the requirement to approve the objection.
 
-如果提案涉及非法活动、仇恨言论、色情材料，或与 APE 基金会的使命或价值观不符，将不会进行投票。
+Proposal proposals that directly conflict with another approved proposal cannot be voted on for three months after the original proposal is implemented, so as not to waste community assets.
+
+Proposals will not be voted on if they involve illegal activity, hate speech, pornographic material, or are inconsistent with the mission or values of the APE Foundation.

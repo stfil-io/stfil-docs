@@ -1,4 +1,3 @@
-# 激励措施
+# Incentives
 
-将预留一部分 FDO 资金用于社区治理的奖励，将发放给参与提案和参与投票的 DAO 成员，来激励 DAO 成员积极参与社区治理。
-
+A portion of FDO funds will be reserved for community governance rewards, which will be distributed to DAO members who participate in proposals and votes to motivate DAO members to actively participate in community governance.

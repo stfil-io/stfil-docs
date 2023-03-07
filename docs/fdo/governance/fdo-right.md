@@ -1,5 +1,5 @@
-# 治理权利
+# Governance Rights
 
-STFIL DAO 将发行一种代币，FDO 是一种在 STFIL 中授予治理权的代币。DAO 的成员通过持有 Token 成为组织活动的参与者，而共享 STFIL 收取的费用来获得应有的回报，一定程度上实现了所有者即劳动者的共治共享状态。
-在 STFIL DAO 的治理投票上，必须持有其治理代币 FDO。FDO 投票权重与持有的 FDO 数量有关系，不同类型的持有人将获得不同的权重。持有人可以将自己的 FDO 委托给其他人来参与社区的治理。
-STFIL DAO 的投票规则和权重，可以通过 DAO 的投票进行升级和更改。
+STFIL DAO will issue a token, and FDO is a token that grants governance rights in STFIL. Members of DAO become participants in organizational activities by holding Token, and share the fees charged by STFIL to obtain due returns. To a certain extent, the state of co-governance and sharing of owners and workers is realized.
+In the governance vote of STFIL DAO, its governance token FDO must be held. FDO voting weight is related to the number of FDO held, and different types of holders will receive different weights. Holders can entrust their FDO to others to participate in the governance of the community.
+The voting rules and weights of STFIL DAO can be upgraded and changed through DAO voting.

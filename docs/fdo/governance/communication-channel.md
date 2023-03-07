@@ -1,7 +1,7 @@
-# 沟通渠道
+# Communication Channel
 
-STFIL 基金会网站是 DAO 中心，提供一个界面来告知 DAO 成员了解治理过程，并提供对以下渠道的轻松访问，以简化 DAO 的操作并增强其效用。
+The STFIL Foundation website is the hub of the DAO, providing an interface to inform DAO members about the governance process and providing easy access to the following channels to simplify the operation of the DAO and enhance its utility.
 
-Forum是所有提案的第一站。SIP（STFIL Improvement Proposal）想法作为一个帖子提交到 Discourse 中，并且必须得到确认，证明它符合 DAO 批准的指南，然后才能出现在社区中。STFIL 持有者必须通过钱包认证过程才能发布想法或通过评论对想法提供反馈。
+Forum is the first stop for all proposals. A SIP (STFIL Improvement Proposal) idea is submitted as a thread in Discourse and must be validated, proving that it meets the DAO-approved guidelines before it can appear in the community. STFIL holders must go through the wallet verification process in order to post ideas or provide feedback on ideas through comments.
 
-Snapshot 用于投票。已通过各自批准流程的提案草稿可在 Snapshot 上进行投票。FDO 持有者必须通过钱包认证过程才能投票。
+Snapshots are used for voting. Draft proposals that have passed their respective approval processes are available for voting on Snapshot. FDO holders must pass the wallet verification process in order to vote.
