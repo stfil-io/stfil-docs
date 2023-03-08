@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+---
+
+
 # Proposal Categories
 
 **SIP** (STFIL Improvement Proposal) can be divided into: Community Proposals, Economic Proposals, Contract/Technical Proposals, Storage Provider Onboarding.

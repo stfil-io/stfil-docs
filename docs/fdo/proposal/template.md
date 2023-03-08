@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Proposal Template
 
 A proposal typically includes:

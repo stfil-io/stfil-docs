@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Proposal Phase
 
 ### Stage 1: SIP Proposal
