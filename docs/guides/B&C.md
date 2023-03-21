@@ -2,6 +2,7 @@
 sidebar_position: 1
 ---
 
+
 # Background&Challenges
 
 In October 2020, Filecoin, a distributed storage project that has attracted much attention, successfully reached the block height of 148888, announcing that the main network was officially launched. Since the launch of the mainnet, it has experienced tremendous growth. The effective computing power of the entire network has exceeded 18EiB, and more than 3,900 miners have participated in mining. A total of more than 1.45 million currency-holding accounts have been developed, of which more than 150,000 currency-holders have an account balance greater than 10FIL .

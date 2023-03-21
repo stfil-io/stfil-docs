@@ -1,5 +1,6 @@
 {
-  "label": "vote",
+  "label": "VOTE",
+  "collapsible": false,
   "position": 3,
   "link": {
     "type": "generated-index",

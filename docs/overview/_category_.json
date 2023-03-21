@@ -1,10 +1,9 @@
 {
-  "label": "PART Ⅰ : Overview",
-  "position": 2,
-  "collapsed": false,
+  "label": "Overview",
+  "position": 4,
   "collapsible": false,
   "link": {
     "type": "generated-index",
-    "description": "This overview part aims to let users quickly understand STFIL through a brief introduction."
+    "description": "The Economic Model part."
   }
 }

@@ -20,7 +20,7 @@ $$ _S<sub>base</sub>_ = \frac{_C<sub>sp</sub>_}{_C<sub>sp</sub>_ + _C<sub>assets
 
 若 $ _C<sub>sp</sub>_ = 7 _usdt_ $ 时，那么在不同的FIL价格下波动：
 
-![img.png](../img.png)
+![img.png](../overview/img.png)
 
 ### 鼓励
 
@@ -46,4 +46,4 @@ $$  _UR<sub>base</sub>_ \leq _UR<sub>current</sub>_ \leq 1-R $$
 
 若数学公式: $ _S<sub>award</sub>_  $= 20% ，数学公式: $ _UR<sub>base</sub>_ $= 70%则：
 
-![float_img.png](../float_img.png)
+![float_img.png](../overview/float_img.png)

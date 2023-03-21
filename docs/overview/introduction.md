@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# STFIL Document Hub
+# 👋🏻STFIL Document Hub
 
 **STFIL** is a first of its kind FIL Stake Protocol, designed to be community owned, decentralised, trustless and compatible with staking in FVM.
 
