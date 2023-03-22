@@ -74,22 +74,22 @@ const config = {
                     {
                         label: 'Overview',
                         position: 'left',
-                        to: '/docs/overview/introduction'
+                        to: 'docs/overview/introduction'
                     },
                     {
                         label: 'Guides',
                         position: 'left',
-                        to: '/docs/guides/B&C'
+                        to: 'docs/guides/B&C'
                     },
                     {
                         label: 'FDO',
                         position: 'left',
-                        to: '/docs/fdo/constitution/normal'
+                        to: 'docs/fdo/constitution/normal'
                     },
                     {
                         label: 'For Developers',
                         position: 'left',
-                        to: '/docs/development/contract'
+                        to: 'docs/development/contract'
                     },
                     // {
                     //   type: 'localeDropdown',
