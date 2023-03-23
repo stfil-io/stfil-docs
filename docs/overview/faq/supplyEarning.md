@@ -9,6 +9,7 @@ sidebar_position: 5
 Browse to the "Supply" section and click on "Supply" for the asset you want to supply. Select the amount you'd like to supply and submit your transaction*. Once the transaction is confirmed, your supply is successfully registered and you begin earning interest.
 
 * The first supply of one asset will require an additional approval transaction.
+
 ### How much will I earn?
 stFIL holders receive continuous earnings that evolve with market conditions based on:
 

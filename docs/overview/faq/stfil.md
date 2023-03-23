@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Intriduce to STFIL
+# Introduce to STFIL
 
 
 ### What is STFIL？
@@ -26,8 +26,8 @@ No platform can be considered entirely risk free. The risks related to the STFIL
 
 You can find additional risk and security related information in the risk framework and security and audits sections.
 
-### stFIL token
-stFIL token is a derivative token that pledges FIL. Allow holders (Assets) to deposit their FIL assets into the liquid pledge smart contract to mint a 1:1 pledge token stFIL, which is a derivative token based on EIP-2612 (an extension of ERC-20), Represents the right to claim the pledged FIL. And stFIL will not be locked by the STFIL protocol, no matter where it is obtained, stFIL will accumulate pledge rewards.
+### What is stFIL token？
+The STFIL protocol will mint stFIL tokens, which are derivative tokens representing stake FIL; it allows holders (assets) to stake their FIL assets into smart contracts to mint a 1:1 stake token stFIL, This is a derivative token based on EIP-2612 (an extension of ERC-20). It represents the right to claim staked FIL. And stFIL does not need to be locked! After users hold stFIL, no matter where they are obtained from, stFIL will accumulate staking rewards.
 
 Documentation on tokenomics and governance is available in the flash paper and with further detail in the full documentation. Feel free to join the discussion in the governance forum.
 
