@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 📝Glossary
+# 📝 Glossary
 
 You may stumble upon some unfamiliar concepts in the STFIL documentation. This section lists commonly used terms in the documentation for easy access, learning, and plugin/theme development.
 

@@ -11,7 +11,7 @@ _**STFIL**_ will be directly managed by STFIL DAO, and all upgrades and new func
 
 ### Protocol User
 
-The main user group of the _**STFIL**_ protocol:
+The main user group of the _**STFIL protocol**_ :
 
 ⚒︎ Token holders who want to obtain pledge income without sacrificing liquidity can obtain liquidity by holding stFil;
 
@@ -29,7 +29,7 @@ stFIL can be used and traded like any other ERC-20 token, allowing users to do a
 
 The STFIL protocol provides loans to Storage Provider nodes for their mining stake, using the FIL deposited into the smart contract of the liquid staking pool. Holders receive mining rewards from the Storage Providers as a result. STFIL aggregates penalties and losses occurring throughout the network, minimizing the impact on any individual user's stake, with the guaranty amount from Storage Providers taking priority, followed by STFIL commission, and finally the pool.
 
-Currently, the STFIL protocol has a minimum staking requirement of 0.1 FIL tokens, with no upper limit.
+Currently, the STFIL protocol has a minimum staking requirement of 1 FIL tokens, with no upper limit.
 
 
 ###  SP stake node
