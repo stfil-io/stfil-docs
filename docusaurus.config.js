@@ -87,6 +87,11 @@ const config = {
                         to: 'docs/fdo/constitution/normal'
                     },
                     {
+                        label: 'RoadMap',
+                        position: 'left',
+                        to: 'docs/roadmap/Aquarius'
+                    },
+                    {
                         label: 'For Developers',
                         position: 'left',
                         to: 'docs/development/contract'
