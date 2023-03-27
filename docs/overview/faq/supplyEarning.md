@@ -1,14 +1,14 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 
-# Supplying & Earning
+# Staking & Earning
 
 
-### How do I supply?
-Browse to the "Supply" section and click on "Supply" for the asset you want to supply. Select the amount you'd like to supply and submit your transaction*. Once the transaction is confirmed, your supply is successfully registered and you begin earning interest.
+### How do I stake?
+Browse to the "stake" section and click on "stake" for the asset you want to stake. Select the amount you'd like to stake and submit your transaction*. Once the transaction is confirmed, your stake is successfully registered and you begin earning interest.
 
-* The first supply of one asset will require an additional approval transaction.
+* The first stake of one asset will require an additional approval transaction.
 
 ### How much will I earn?
 stFIL holders receive continuous earnings that evolve with market conditions based on:
@@ -17,15 +17,22 @@ stFIL holders receive continuous earnings that evolve with market conditions bas
 
 Each asset has its own market of supply and demand with its own APY (Annual Percentage Yield) which evolves with time. You can find the average annual rate over the past 30 days to evaluate the rate evolution, and you can also find more data on the reserve overview of each asset in the home section on the app.
 
-### Is there a minimum or maximum amount to supply?
-You can provide any amount you want (minimum is 0.1FIL), maximum limit. It is important to consider that for very low amounts, the transaction costs of the process may be higher than the expected benefits. It is recommended to take this into account when the supply is low.
+### What is the minimum amount to participate in the staking?
+You can provide any amount you want (minimum is 1FIL), maximum limit. It is important to consider that for very low amounts, the transaction costs of the process may be higher than the expected benefits. It is recommended to take this into account when the supply is low.
 
-### Can SP borrow using stable and variable rate at the same time for one asset?
-No, you can only borrow using stable or variable rate, if you switch to your desired rate it will switch the rate for your whole debt on that asset. Despite this, you can have different borrow rates for different assets.
-
-### How do I withdraw?
-To withdraw you need to go to the "Dashboard" section and click on “Withdraw”. Select the amount to withdraw and submit the transaction. Also, you can use your “stFIL" as liquidity without withdrawing.
+### How do I unstake?
+You need to go to the "Dashboard" section and click on “Unstake”. Select the amount to withdraw and submit the transaction. Also, you can use your “stFIL" as liquidity without withdrawing.
 You would need to make sure there is enough liquidity (not borrowed) in order to withdraw, if this is not the case you would need to wait for more liquidity from suppliers or borrowers repaying. 
 
-### Can an SP choose not to use its assets as collateral?
-no. In order to ensure the stable maintenance of SP, SP must choose a way to mortgage (the beneficiary wallet/owner wallet can be mortgaged). Choosing different ways of mortgage will apply for different amounts of loans.
+### Are funds safe?
+Smart contracts are responsible for holding and transferring funds (including all staking and withdrawals). No one user can take user funds directly from the pool. The smart contracts will be completely open source for the public eye to analyze and be fully audited by the best audit teams in the industry.
+
+### Do I care who the funds are lent to?
+No, you don't need to care. All funds are uniformly managed by smart contracts for loans to SP. All proceeds from the loan will also be equally distributed to each currency holder based on equity.
+
+
+### Is there a lock-up period for the staked FIL?
+No. In the STFIL protocol, the rules of the sector pledge cycle in the Filecoin network are transparent to users. As long as there is liquidity in the STFIL pool, users can stake/unstake at a constant stFIL : FIL ratio of 1:1 at any time.
+
+### Is there a risk of loss of principal?
+Yes, there are such risks. But STFIL Protocol aggregates the penalties and losses of all nodes and amortizes each user equally, minimizing the impact on individual users. If some SPs in the STFIL protocol have serious errors for a long time, penalties  will be first covered by the balance of node provided by Storage Providers, followed by the risk reserve fund of the STFIL, and finally by the pool. 

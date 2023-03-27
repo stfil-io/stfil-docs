@@ -79,7 +79,7 @@ const config = {
                     {
                         label: 'Guides',
                         position: 'left',
-                        to: 'docs/guides/B&C'
+                        to: 'docs/guides/user/staking'
                     },
                     {
                         label: 'FDO',
