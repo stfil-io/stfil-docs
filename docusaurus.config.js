@@ -120,11 +120,11 @@ const config = {
                         items: [
                             {
                                 label: 'Getting Started',
-                                to: 'docs/overview/introduction',
+                                to: 'docs/overview/overview',
                             },
                             {
                                 label: 'FAQ',
-                                to: 'docs/overview/faq/stfil',
+                                to: 'docs/overview/faq/general',
                             },
                             {
                                 label: 'FDO',
