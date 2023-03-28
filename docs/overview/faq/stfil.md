@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduce to STFIL
+# 📌 Introduce to STFIL
 
 
 ### What is STFIL？
@@ -12,10 +12,10 @@ Please join the STFIL community Discord server;  the STFIL team and members of t
 ### Why STFIL?
 The STFIL protocol has completed a security audit. The protocol is completely open source, allowing anyone to interact with it through a user interface client, API, or directly with the smart contracts on the Filecoin network. Being open source means that you can build any third-party services or applications to interact with the protocol and enhance your products.
 
-### How do I interact with STFIL protocol?？
+### How do I interact with STFIL Protocol?
 To interact with the STFIL protocol, you simply need to provide your preferred asset and amount. Holders of the currency will receive passive income based on market borrowing demand. Additionally, it allows you to borrow using SP as collateral. The block rewards you earn by providing funds on the Filecoin network help offset the interest you accumulate by borrowing FIL.
 
-### What is the cost of interacting with STFIL protocol?
+### What is the cost of interacting with STFIL Protocol?
 Interacting with the protocol requires transactions and so transaction fees for Filecoin Blockchain usage, which depend on the network status and transaction complexity.
 
 ### Where are the funds I provide deposited?

@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Troubleshooting
+# 📌 Troubleshooting
 
 
 ### I cannot connect to the platform

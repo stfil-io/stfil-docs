@@ -2,7 +2,7 @@
   "label": "🧐 FAQ",
   "position": 4,
   "collapsed": false,
-  "collapsible": false,
+  "collapsible": true,
   "link": {
     "type": "generated-index",
     "description": "This FAQ part aims to let users quickly understand STFIL through a brief introduction."

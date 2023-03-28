@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Debt Type
+# 📌 Debt Type
 
 For ***Assets*** ：
 

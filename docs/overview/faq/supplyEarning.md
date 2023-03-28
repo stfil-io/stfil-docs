@@ -2,13 +2,18 @@
 sidebar_position: 2
 ---
 
-# Staking & Earning
+# 📌 Staking & Earning
 
 
 ### How do I stake?
 Browse to the "stake" section and click on "stake" for the asset you want to stake. Select the amount you'd like to stake and submit your transaction*. Once the transaction is confirmed, your stake is successfully registered and you begin earning interest.
 
 * The first stake of one asset will require an additional approval transaction.
+
+### How do I unstake?
+You need to go to the "Dashboard" section and click on “Unstake”. Select the amount to unstake and submit the transaction. Also, you can use your “stFIL" as liquidity without unstaking.
+
+You would need to make sure there is enough liquidity (not borrowed) in order to unstake, if this is not the case you would need to wait for more liquidity from suppliers or borrowers repaying.
 
 ### How much will I earn?
 stFIL holders receive continuous earnings that evolve with market conditions based on:
@@ -17,17 +22,13 @@ stFIL holders receive continuous earnings that evolve with market conditions bas
 
 Each asset has its own market of supply and demand with its own APY (Annual Percentage Yield) which evolves with time. You can find the average annual rate over the past 30 days to evaluate the rate evolution, and you can also find more data on the reserve overview of each asset in the home section on the app.
 
-### What is the minimum amount to participate in the staking?
+### What is the minimum amount to stake?
 You can provide any amount you want (minimum is 1FIL), maximum limit. It is important to consider that for very low amounts, the transaction costs of the process may be higher than the expected benefits. It is recommended to take this into account when the supply is low.
-
-### How do I unstake?
-You need to go to the "Dashboard" section and click on “Unstake”. Select the amount to withdraw and submit the transaction. Also, you can use your “stFIL" as liquidity without withdrawing.
-You would need to make sure there is enough liquidity (not borrowed) in order to withdraw, if this is not the case you would need to wait for more liquidity from suppliers or borrowers repaying. 
 
 ### Are funds safe?
 Smart contracts are responsible for holding and transferring funds (including all staking and withdrawals). No one user can take user funds directly from the pool. The smart contracts will be completely open source for the public eye to analyze and be fully audited by the best audit teams in the industry.
 
-### Do I care who the funds are lent to?
+### Do I need to care who I lent my FIL to?
 No, you don't need to care. All funds are uniformly managed by smart contracts for loans to SP. All proceeds from the loan will also be equally distributed to each currency holder based on equity.
 
 
