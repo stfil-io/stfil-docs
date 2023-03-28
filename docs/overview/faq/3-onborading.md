@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 📌 SP Onborading
+# 📌 Node Onborading
 
 
 ### Why onborading?

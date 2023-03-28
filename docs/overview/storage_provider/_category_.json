@@ -1,0 +1,10 @@
+{
+  "label": "🪩 Storage Provider",
+  "position": 10,
+  "collapsed": false,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "description": "This Storage Provider part aims to let users quickly understand the introduction of various aspects related to storage providers in the STFIL protocol."
+  }
+}

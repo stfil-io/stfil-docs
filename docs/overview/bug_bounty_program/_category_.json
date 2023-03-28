@@ -1,0 +1,9 @@
+{
+  "label": "🏆 Bug Bounty Program",
+  "position": 12,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "The security of the STFIL DAO system is paramount to the STFIL protocol. However, even with rigorous auditing, there is still a possibility of vulnerabilities given the constantly evolving ecosystem. That is why we have implemented a bounty program to identify errors and vulnerabilities in the protocol infrastructure and smart contracts. We will reward any organization or individual who helps us make the system as robust as possible."
+  }
+}

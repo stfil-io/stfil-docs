@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 📌 Staking & Earning
+# 📌 Staking
 
 
 ### How do I stake?

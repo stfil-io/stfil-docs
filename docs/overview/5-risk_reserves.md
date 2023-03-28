@@ -1,8 +1,8 @@
 ---
-sidebar_position: 7
+sidebar_position: 11
 ---
 
-# 📌 Risk Reserves
+# Risk Reserves
 
 Risk reserves is created to solve potential fund risk problems. The Risk reserves account cannot withdraw and only accepts collections from stFIL. Anyone can provide funds support for Risk reserves, and STFIL DAO will transfer part of service fee to the Risk reserves account.
 

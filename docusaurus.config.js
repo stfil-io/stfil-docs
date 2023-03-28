@@ -72,9 +72,9 @@ const config = {
                 },
                 items: [
                     {
-                        label: 'Overview',
+                        label: 'Protocol',
                         position: 'left',
-                        to: 'docs/overview/introduction'
+                        to: 'docs/overview/overview'
                     },
                     {
                         label: 'Guides',
@@ -82,14 +82,9 @@ const config = {
                         to: 'docs/guides/user/staking'
                     },
                     {
-                        label: 'FDO',
+                        label: 'Governance',
                         position: 'left',
-                        to: 'docs/fdo/constitution/normal'
-                    },
-                    {
-                        label: 'RoadMap',
-                        position: 'left',
-                        to: 'docs/roadmap/Aquarius'
+                        to: 'docs/governance/constitution/normal'
                     },
                     {
                         label: 'For Developers',
@@ -102,7 +97,7 @@ const config = {
                     // },
                     {
                         position: 'right',
-                        label: 'Proposal',
+                        label: 'White Paper',
                         href: 'https://forum.stfil.io/',
                     },
                     {
@@ -133,7 +128,7 @@ const config = {
                             },
                             {
                                 label: 'FDO',
-                                to: 'docs/fdo/governance/info',
+                                to: 'docs/governance/governance/info',
                             },
                         ],
                     },

@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# 🌑 Background&Challenges
+# 🌑 Challenges
 
 In March 2023, Filecoin, a distributed storage network, successfully launched the Filecoin Virtual Machine. The Filecoin protocol has experienced tremendous growth since mainnet launch in October 2020, and currently, has 19EiB of total power from over 3,800 storage providers. Among Filecoin Token Holders, there are nearly 160,000 who hold at least 10 FIL in their wallets.
 
