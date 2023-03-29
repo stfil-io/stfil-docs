@@ -98,7 +98,7 @@ const config = {
                     {
                         position: 'right',
                         label: 'White Paper',
-                        href: 'https://forum.stfil.io/',
+                        href: 'https://docs.stfil.io/STFIL_Protocol_Whitepaper_v1_1.pdf',
                     },
                     {
                         position: 'right',
