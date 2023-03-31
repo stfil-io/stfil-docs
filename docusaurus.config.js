@@ -87,9 +87,9 @@ const config = {
                         to: 'docs/governance/constitution/normal'
                     },
                     {
-                        label: 'For Developers',
+                        label: 'Developers',
                         position: 'left',
-                        to: 'docs/development/contract'
+                        to: 'docs/development/introduction'
                     },
                     // {
                     //   type: 'localeDropdown',
