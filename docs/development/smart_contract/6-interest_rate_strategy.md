@@ -1,12 +1,14 @@
 ---
-sidebar_position: 7
+sidebar_position: 6
 ---
 
 # InterestRateStrategy
 
+Implements the calculation of the interest rates depending on the staking pool state
+
 ## Methods
 
-### calculateInterestRates**()**
+### **calculateInterestRates()**
 
 **`calculateInterestRates(uint256 availableLiquidity, uint256 liquidityAdded, uint256 liquidityTaken, uint256 totalStableDebt, uint256 totalVariableDebt, uint256 averageStableBorrowRate, uint256 fee)`**
 
@@ -54,7 +56,7 @@ Calculates the interest rates depending on the reserve's state and configuration
 | uint256 | The new new stable rate   |
 | uint256 | The new variable rate     |
 
-### Only Pool Admin
+### **Only Pool Admin**
 
 * setStrategyParams
 

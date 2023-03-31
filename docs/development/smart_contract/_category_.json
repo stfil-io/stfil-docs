@@ -1,0 +1,10 @@
+{
+  "label": "Smart Contract",
+  "position": 7,
+  "collapsed": false,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "description": "This Smart Contract part aims to let developers quickly understand the function of develop related to smart contract in the STFIL protocol."
+  }
+}

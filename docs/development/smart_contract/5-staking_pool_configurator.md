@@ -1,12 +1,14 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 # StakingPoolConfigurator
 
+Implements the configuration methods for the STFIL protocol
+
 ## Methods
 
-### Only Pool Admin
+### **Only Pool Admin**
 
 * enableStableRate
 * disableStableRate
@@ -18,7 +20,7 @@ sidebar_position: 6
 * enabledBorrowing(uint64 actorId)
 * setNodeLeverage
 
-### Only Emergency Admin
+### **Only Emergency Admin**
 
 * setPoolPause
 

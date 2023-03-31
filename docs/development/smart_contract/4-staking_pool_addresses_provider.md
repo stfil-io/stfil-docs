@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # StakingPoolAddressesProvider
@@ -18,7 +18,7 @@ AccessControl allows a _**Role Admin**_ to manage roles. _**Role Admin**_ is its
 
 ## Methods
 
-### getProxy**()**
+### **getProxy()**
 
 **`getProxy(bytes32 proxyKey)`**
 
@@ -30,7 +30,7 @@ AccessControl allows a _**Role Admin**_ to manage roles. _**Role Admin**_ is its
     bytes32 internal constant VARIABLE_DEBT_TOKEN = keccak256('VARIABLE_DEBT_TOKEN');
     bytes32 internal constant INTEREST_RATE_STRATEGY = keccak256('INTEREST_RATE_STRATEGY');
 :::
-For example, the [StakingPool](https://github.com/stfil-io/protocol/blob/main/contracts/protocol/stakingpool/StakingPool.sol) uses the proxyKey: 0x08d1f44dcaff773a7a8b50a8f7f313fc6b1b340ee8cef4d33a10e9357b4f1c17
+For example, the [StakingPool](./staking_pool) uses the proxyKey: 0x08d1f44dcaff773a7a8b50a8f7f313fc6b1b340ee8cef4d33a10e9357b4f1c17
 
 #### Call Params
 
@@ -44,7 +44,10 @@ For example, the [StakingPool](https://github.com/stfil-io/protocol/blob/main/co
 | ------- | ----------------------------------------------------- |
 | address | The address associated with the bytes32 proxyKey used |
 
-### hasRole**()**
+
+## Access Methods
+
+### **hasRole()**
 
 **`hasRole(bytes32 role, address account)`**
 

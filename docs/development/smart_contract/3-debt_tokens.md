@@ -1,10 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Debt Tokens
 
-Debt tokens are interest-accruing tokens that are minted and burned on [`borrow`](https://github.com/stfil-io/protocol/tree/main/contracts/protocol/tokenization) and [`repay`](https://github.com/stfil-io/protocol/tree/main/contracts/protocol/tokenization), representing the debt owed by the token holder. There are 2 types of debt tokens:
+Debt tokens are interest-accruing tokens that are minted and burned on [`borrow`](./staking_pool#borrow) and [`repay`](./staking_pool#repay), representing the debt owed by the token holder. There are 2 types of debt tokens:
 
 * Stable debt tokens, representing a debt to the protocol with a stable interest rate
 * Variable debt tokens, representing a debt to the protocol with a variable interest rate
@@ -23,15 +23,19 @@ Although debt tokens are modelled on the ERC20/EIP20 standard, they are non-tran
 `totalSupply()` will always return the most up to date total debt accrued by all protocol users for _that specific type (stable vs variable) of debt token_.
 :::
 
-### POOL()
+### **POOL()**
 
 **`function POOL()`**
 
-Returns the address of the associated [`StakingPool`](https://github.com/stfil-io/protocol) for the debt token.
+#### Return values
+
+| Type         | Description                                                                         |
+| ------------ | ----------------------------------------------------------------------------------- |
+| IStakingPool | the address of the associated [`StakingPool`](./staking_pool) for the debt token.   |
 
 ## Stable Debt Methods
 
-### getSupplyData**()**
+### **getSupplyData()**
 
 **`function getSupplyData()`**
 
@@ -46,7 +50,7 @@ Returns the supply / deposit data for the debt token.
 | uint256 | average borrow rate              |
 | uint40  | timestamp for last supply update |
 
-### getTotalSupplyAndAvgRate**()**
+### **getTotalSupplyAndAvgRate()**
 
 **`function getTotalSupplyAndAvgRate()`**
 
@@ -65,45 +69,93 @@ Returns the total supply and average stable rate of the token.
 
 Returns the principal debt balance of the `user`.
 
-### getUserLastUpdated**()**
+#### Return values
+
+| Type    | Description                |
+| ------- | -------------------------- |
+| uint256 | the principal debt balance |
+
+### **getUserLastUpdated()**
 
 **`function getUserLastUpdated(address user)`**
 
-Returns the timestamp of the last action taken by `user` as `uint40`.
+Returns the timestamp of the last action taken
 
-### getAverageStableRate**()**
+#### Return values
+
+| Type    | Description                 |
+| ------- | --------------------------- |
+| uint40  | the timestamp of the last   |
+
+### **getAverageStableRate()**
 
 **`function getAverageStableRate()`**
 
-Returns the average stable rate across all the stable rate debt in the protocol as `uint256`.
+Returns the average stable rate across all the stable rate debt in the protocol.
 
-### getUserStableRate**()**
+#### Return values
+
+| Type    | Description                                                               |
+| ------- | ------------------------------------------------------------------------- |
+| uint256  | the average stable rate across all the stable rate debt in the protocol  |
+
+### **getUserStableRate()**
 
 **`function getUserStableRate(address user)`**
 
-Returns the stable rate of `user` as `uint256`.
+Returns the stable rate of `user`.
+
+#### Return values
+
+| Type    | Description                 |
+| ------- | --------------------------- |
+| uint256  | the stable rate of `user`  |
 
 ## Variable Debt Methods
 
-### scaledBalanceOf**()**
+### **scaledFactor()**
 
-**`function scaledBalanceOf(address user)`**
+**`function scaledFactor(address user)`**
 
 Returns the principal debt balance of `user`.
 
-### scaledTotalSupply**()**
+#### Call Params
 
-**`function scaledTotalSupply()`**
+| Parameter Name | Type    | Description     |
+| -------------  | ------- | --------------- |
+| `user`         | address | address of user |
 
-Returns the scaled total supply of the variable debt token.&#x20;
+#### Return values
+
+| Type    | Description                  |
+| ------- | ---------------------------- |
+| uint256  |  the principal debt balance |
+
+### **scaledFactorTotalSupply()**
+
+**`function scaledFactorTotalSupply()`**
+
+Returns the scaled factor total supply of the variable debt token
 
 This represents _sum( borrows  /  index )_ .
 
-### getScaledUserBalanceAndSupply**()**
+#### Return values
 
-**`function getScaledUserBalanceAndSupply(address user)`**
+| Type    | Description              |
+| ------- | ------------------------ |
+| uint256 |  the scaled factor total supply |
+
+### **getUserScaledFactorAndSupply()**
+
+**`function getUserScaledFactorAndSupply(address user)`**
 
 Returns the principal balance of the `user` and principal total supply.
+
+#### Call Params
+
+| Parameter Name | Type    | Description     |
+| -------------  | ------- | --------------- |
+| `user`         | address | address of user |
 
 #### Return values
 

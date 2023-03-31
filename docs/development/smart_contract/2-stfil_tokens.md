@@ -1,15 +1,15 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # STFILTokens
 
-stFILTokens are yield-generating tokens that are minted and burned upon [`deposit`](../lendingpool/#deposit) and [`withdraw`](../lendingpool/#withdraw). The stFILTokens' value is pegged to the value of the corresponding deposited asset at a 1:1 ratio, and can be safely stored, transferred or traded. All interest collected by the stFILTokens reserves are distributed to stFILTokens holders directly by continuously increasing their wallet balance.&#x20;
+stFILTokens are yield-generating tokens that are minted and burned upon [`stake`](./staking_pool#stake) and [`unstake`](./staking_pool#unstake). The stFILTokens' value is pegged to the value of the corresponding deposited asset at a 1:1 ratio, and can be safely stored, transferred or traded. All interest collected by the stFILTokens reserves are distributed to stFILTokens holders directly by continuously increasing their wallet balance.&#x20;
 
 The source code can be found [on Github here](https://github.com/stfil-io/protocol/blob/main/contracts/protocol/tokenization/STFILToken.sol).
 
 :::caution
-For all minting and burning actions, see [`Deposit()`](https://github.com/stfil-io/protocol/blob/main/contracts/protocol/stakingpool/StakingPool.sol) and [`Withdraw()`](https://github.com/stfil-io/protocol/blob/main/contracts/protocol/stakingpool/StakingPool.sol) methods in the `StakingPool` contract.
+For all minting and burning actions, see [`Stake()`](./staking_pool#stake) and [`Unstake()`](./staking_pool#unstake) methods in the `StakingPool` contract.
 :::
 
 ## EIP20 Methods
@@ -22,7 +22,7 @@ All standard EIP20 methods are implemented, such as `balanceOf()`, `transfer()`,
 
 ## EIP2612 Methods
 
-### permit()
+### **permit()**
 
 **`function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s)`**
 
@@ -58,7 +58,7 @@ const chainId = 1
 const owner = "OWNER_ADDRESS"
 const spender = "SPENDER_ADDRESS"
 const value = 100 // Amount the spender is permitted
-const nonce = 1 // The next valid nonce, use `_nonces()`
+const nonce = 1 // The next valid nonce, use `nonces()`
 const deadline = 1600093162
 
 const permitParams = {
@@ -118,65 +118,98 @@ await stFILTokenContract.methods
     })
 ```
 
-### \_nonces()
+### **nonces()**
 
-**`function _nonces(address owner) public`**
+**`function nonces(address owner) public`**
 
-Returns the next valid nonce to submit when calling `permit()`
+Returns the nonce value for address specified as parameter. This is the nonce used when calling `permit()`
+
+```jsx
+const token = new Contract(stFILTokenAddress, stFILToken.abi, provider);
+await token.nonces(user);
+```
 
 ## Methods
 
-### RESERVE\_TREASURY\_ADDRESS()
+### **RESERVE_TREASURY_ADDRESS()**
 
 **`function RESERVE_TREASURY_ADDRESS()`**
 
-Returns the address of the stFILTokens reserve treasury.
+#### Return values
 
-### POOL()
+| Type    | Description                                      |
+| ------- | ------------------------------------------------ |
+| address | the address of the stFILTokens reserve treasury. |
+
+### **POOL()**
 
 **`function POOL()`**
 
-Returns the address of the associated [`StakingPool`](https://github.com/stfil-io/protocol/blob/main/contracts/protocol/stakingpool/StakingPool.sol) for the aToken.
+#### Return values
 
-### scaledBalanceOf**()**
+| Type         | Description                                                                         |
+| ------------ | ----------------------------------------------------------------------------------- |
+| IStakingPool | the address of the associated [`StakingPool`](./staking_pool) for the _stFILToken_. |
 
-**`function scaledBalanceOf(address user)`**
+### **scaledFactor()**
 
-Returns the scaled balance of `user` as a `uint256`.
+**`function scaledFactor(address user)`**
 
-The scaled balance is the balance of the underlying asset of the user (amount deposited), divided by the current liquidity index at the moment of the update.&#x20;
+The scaled factor is the balance of the underlying asset of the user (amount staked), divided by the current liquidity index at the moment of the update.&#x20;
 
-I.e. _scaledBalance = amount Deposited / currentLiquidityIndex_;
+I.e. _scaledFactor = amount Staked / currentLiquidityIndex_;
 
-This essentially 'marks' when a user has deposited in the reserve pool, and can be used to calculate the users current compounded aToken balance.
+This essentially 'marks' when a user has deposited in the reserve pool, and can be used to calculate the users current compounded stFILToken balance.
 
 Example:
 
 * User A stakes 1000 FIL at the liquidity index of 1.1
 * User B stakes another amount into the same pool
 * The liquidity index is now 1.2.
-* Therefore to calculate User A's current compounded stFILToken balance, the reverse operation should be performed: _stFILTokenBalance = scaledBalance * currentLiquidityIndex_;
+* Therefore to calculate User A's current compounded stFILToken balance, the reverse operation should be performed: _stFILTokenBalance = scaledFactor * currentLiquidityIndex_;
 
-### getScaledUserBalanceAndSupply**()**
+#### Call Params
 
-**`function getScaledUserBalanceAndSupply(address user)`**
-
-Returns the scaled balance of `user`and the principal total supply.
+| Parameter Name | Type    | Description                            |
+| -------------  | ------- | -------------------------------------- |
+| `user`         | address | address of user                        |
 
 #### Return values
 
 | Type    | Description            |
 | ------- | ---------------------- |
-| uint256 | scaled balance of user |
+| uint256 | scaled factor of user  |
+
+### **getUserScaledFactorAndSupply()**
+
+**`function getUserScaledFactorAndSupply(address user)`**
+
+Returns the scaled factor of `user`and the principal total supply.
+
+#### Call Params
+
+| Parameter Name | Type    | Description                            |
+| -------------  | ------- | -------------------------------------- |
+| `user`         | address | address of user                        |
+
+#### Return values
+
+| Type    | Description            |
+| ------- | ---------------------- |
+| uint256 | scaled factor of user |
 | uint256 | principal total supply |
 
-### scaledTotalSupply**()**
+### **scaledFactorTotalSupply()**
 
-**`function scaledTotalSupply()`**
-
-Returns the scaled total supply of the aToken as `uint256`.
+**`function scaledFactorTotalSupply()`**
 
 The scaled total supply is the sum of all the updated stored balances, divided by the reserve index at the moment of the update.
+
+#### Return values
+
+| Type    | Description             |
+| ------- | ----------------------- |
+| uint256 | the scaled total supply |
 
 ## ABI
 
