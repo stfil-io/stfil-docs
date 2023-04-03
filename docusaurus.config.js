@@ -97,7 +97,7 @@ const config = {
                     // },
                     {
                         position: 'right',
-                        label: 'White Paper',
+                        label: 'Whitepaper',
                         href: 'https://docs.stfil.io/STFIL_Protocol_Whitepaper_v1_1.pdf',
                     },
                     {
