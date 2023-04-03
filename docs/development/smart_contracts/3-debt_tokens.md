@@ -172,6 +172,11 @@ Returns the principal balance of the `user` and principal total supply.
 ```
 [
     {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
       "anonymous": false,
       "inputs": [
         {
@@ -770,6 +775,11 @@ Returns the principal balance of the `user` and principal total supply.
 
 ```
 [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
     {
       "anonymous": false,
       "inputs": [

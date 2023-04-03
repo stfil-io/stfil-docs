@@ -219,6 +219,11 @@ The scaled total supply is the sum of all the updated stored balances, divided b
 ```
 [
     {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
       "anonymous": false,
       "inputs": [
         {

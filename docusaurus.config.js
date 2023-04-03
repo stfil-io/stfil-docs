@@ -103,7 +103,7 @@ const config = {
                     {
                         position: 'right',
                         label: 'Discuss',
-                        href: 'https://forum.stfil.io/',
+                        href: 'https://filecoinproject.slack.com/archives/C0512AMBV98',
                     },
                     {
                         href: 'https://github.com/stfil-io',
@@ -141,7 +141,7 @@ const config = {
                             },
                             {
                                 label: 'Forum',
-                                to: 'https://forum.stfil.io',
+                                to: 'https://filecoinproject.slack.com/archives/C0512AMBV98',
                             },
                             {
                                 label: 'Twitter',

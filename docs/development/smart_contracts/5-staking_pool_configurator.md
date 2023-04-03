@@ -6,6 +6,8 @@ sidebar_position: 5
 
 Implements the configuration methods for the STFIL protocol
 
+The source code can be found [on Github here](https://github.com/stfil-io/protocol/blob/main/contracts/protocol/configuration/StakingPoolConfigurator.sol).
+
 ## Methods
 
 ### **Only Pool Admin**
@@ -31,6 +33,11 @@ Implements the configuration methods for the STFIL protocol
 
 ```
 [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
     {
       "anonymous": false,
       "inputs": [
@@ -94,25 +101,6 @@ Implements the configuration methods for the STFIL protocol
         {
           "indexed": false,
           "internalType": "uint256",
-          "name": "liquidationThreshold",
-          "type": "uint256"
-        }
-      ],
-      "name": "LiquidationThresholdChanged",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "internalType": "uint64",
-          "name": "actorId",
-          "type": "uint64"
-        },
-        {
-          "indexed": false,
-          "internalType": "uint256",
           "name": "maxLeverage",
           "type": "uint256"
         }
@@ -131,32 +119,6 @@ Implements the configuration methods for the STFIL protocol
         }
       ],
       "name": "PoolFeeChanged",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "internalType": "address",
-          "name": "strategy",
-          "type": "address"
-        }
-      ],
-      "name": "PoolInterestRateStrategyChanged",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "internalType": "uint256",
-          "name": "liquidationFactor",
-          "type": "uint256"
-        }
-      ],
-      "name": "PoolLiquidationFactorChanged",
       "type": "event"
     },
     {

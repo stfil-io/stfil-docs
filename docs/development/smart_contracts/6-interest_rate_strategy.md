@@ -6,6 +6,8 @@ sidebar_position: 6
 
 Implements the calculation of the interest rates depending on the staking pool state
 
+The source code can be found [on Github here](https://github.com/stfil-io/protocol/blob/main/contracts/protocol/configuration/InterestRateStrategy.sol).
+
 ## Methods
 
 ### **calculateInterestRates()**
@@ -92,6 +94,31 @@ Calculates the interest rates depending on the reserve's state and configuration
       ],
       "stateMutability": "nonpayable",
       "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "maxBorrowRate",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "optimalBorrowRate",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "optimalUtilizationRate",
+          "type": "uint256"
+        }
+      ],
+      "name": "StrategyParamsChanged",
+      "type": "event"
     },
     {
       "inputs": [

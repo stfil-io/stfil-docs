@@ -1,0 +1,10 @@
+{
+  "label": "Deployed Contracts",
+  "position": 2,
+  "collapsed": false,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "description": "This Deployed Contracts part aims to let developers quickly understand the function of develop related to smart contract in the STFIL protocol."
+  }
+}

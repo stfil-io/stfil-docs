@@ -834,11 +834,6 @@ Returns `true` if the StakingPool is paused.
             },
             {
               "internalType": "address",
-              "name": "spTokenAddress",
-              "type": "address"
-            },
-            {
-              "internalType": "address",
               "name": "stableDebtTokenAddress",
               "type": "address"
             },
