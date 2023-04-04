@@ -26,13 +26,6 @@ The interest rate you pay for borrowing assets depends on the borrowing rate whi
 ### Can an SP choose not to use its assets as collateral?
 no. In order to ensure the stable maintenance of SP, SP must choose a way to mortgage (the beneficiary wallet/owner wallet can be mortgaged). Choosing different ways of mortgage will apply for different amounts of loans.
 
-### What is the health factor?
-The health factor is the numeric representation of the safety of your deposited assets against the borrowed assets and its underlying value. The higher the value is, the safer the state of your funds are against a liquidation scenario. If the health factor reaches 1, the liquidation of your deposits will be triggered. A Health Factor below 1 can get liquidated. For a HF=2, the collateral value vs borrow can reduce by 1 out of 2: 50%. The health factor depends on the liquidation threshold of your collateral against the value of your borrowed funds. You can find all of the collateral parameters in the risk parameters section.
-If you would like to know more technical details about the health factor calculation, you can find those here.
-
-### What happens when my fitness factor drops?
-Depending on the available balance of SP, the health factor increases or decreases. If your health factor increases, it will improve your borrowing position by making the liquidation threshold less likely to be reached. If the SP's balance drops due to network penalties or withdrawals, the health factor will also decrease, resulting in increased liquidation risk.
-
 ### When do I need to pay back the loan?
 There is no fixed time period to pay back the loan. As long as your position is safe, you can borrow for an undefined period. However, as time passes, the accrued interest will grow making your health factor decrease, which might result in your deposited assets becoming more likely to be liquidated.
 
@@ -40,7 +33,7 @@ There is no fixed time period to pay back the loan. As long as your position is 
 In order to payback the loan you simply go to the Borrowings section of your dashboard and click on the repay button for the asset you borrowed and want to repay. Select the amount to pay back and confirm the transaction.
 
 ### How do I avoid liquidation?
-In order to avoid the reduction of your health factor leading to liquidation, you can repay the loan or deposit more assets in order to increase your health factor. Out of these two available options, repaying the loan would increase your health factor more.
+In order to avoid being liquidated due to the continuous growth of debt and the debt ratio exceeding the liquidation threshold, you can repay the loan or deposit more assets in order to decrease your debt ratio.
 
 
 

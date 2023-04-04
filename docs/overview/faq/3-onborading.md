@@ -16,9 +16,9 @@ During the onboarding process:
 2. Delegated owner address: First, you need to make sure that the owner of the node and the beneficiary are the same address. Second, you must use the owner's private key, and follow the prompts to change the node's owner address to the new address provided by the STFIL smart contract. Enrollment is now complete.
 ### How much loan can a node get?
 
-1.  Delegate beneficiary address: After onboarding, you can get a loan line of 33% of the FIL assets of the node. After completing KYC, a maximum loan amount of 150% of node FIL assets can be obtained.
+1.  Delegate beneficiary address: After onboarding, you can get a loan line of 50% of the FIL assets of the node. After completing KYC, a maximum loan amount of 100% of node FIL assets can be obtained.
 
-2.  Delegated owner address：After onboarding, you can get a loan line of 50% of the FIL assets of the node. After completing KYC, a maximum loan amount of 200% of node FIL assets can be obtained.
+2.  Delegated owner address：After onboarding, you can get a loan line of 100% of the FIL assets of the node. After completing KYC, a maximum loan amount of 200% of node FIL assets can be obtained.
 
 ### How to redeem a node?
 At any time, as long as all debts of the node have been paid off, the node operator can follow the prompts on the webpage to complete the resignation operation and get back the ownership of the node.

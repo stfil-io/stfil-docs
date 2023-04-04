@@ -4,10 +4,40 @@ sidebar_position: 3
 
 # Variable Rate Debt
 
-_**Variable debt model**_, FIL price fluctuations will affect SP's willingness to borrow, and the utilization rate of funds will affect the loan interest rate, which is interlocking. The interest rate on variable debt will fluctuate from moment to moment due to the availability of funds.
+The variable-rate model of STFIL can provide a more fair and transparent market pricing
+mechanism, enabling market participants to manage their funds more flexibly and gain greater
+profits from market fluctuations.   
 
-_**Variable debt model**_ is debt whose interest rate changes over time based on fluctuations in the underlying benchmark interest rate or other specified factors. The interest rate on variable-rate debt typically changes on a regular basis.
+To implement this strategy, the following concepts have been introduced into the
+variable-rate debt of the STFIL protocol:
 
-One advantage of floating-rate debt is that it may offer a lower initial interest rate than fixed-rate debt, making it a more affordable option for borrowers. However, floating-rate debt can also expose borrowers to greater risk than fixed-rate debt because interest rates can change over time. If interest rates rise, borrowers on floating-rate debt may see their interest payments increase, which could lead to higher borrowing costs, and vice versa.
+* _**VI<sub>t</sub>**_, Interest-bearing index for cumulative variable-rate loan.
+The interest accumulated on the variable-rate debt _**VB**_ borrowed at rate _**VR**_ within time _**∆T**_
+is updated whenever there is a stake, unstake, borrow, repay , or liquidate event.
 
-Overall, variable rate debt is a useful vehicle for borrowers who are willing to accept a degree of interest rate risk in exchange for the potential cost savings of a lower initial rate. Borrowers should carefully consider their risk tolerance and financial situation before choosing floating rate debt over fixed rate debt.
+![](V1.png)
+
+* _**VI<sub>(x)</sub>**_ , Interest-bearing index for a user's variable-rate loan.
+The variable-rate loan index for a specific storage provider x , stored at the time of opening
+ a variable loan position.
+
+![](V2.png)
+
+* _**VN<sub>t</sub>**_, Standardized variable-rate (accruing) debt.
+
+![](V3.png)
+
+_**S<sub>t(x)</sub>**_ is the scaling factor for user x at time t , m is the transaction amount, and _**VN<sub>t</sub>**_ is the
+standardized variable-rate debt:  
+* _**Borrows**_. When storage provider x borrows an amount m from the protocol, the scaling factor will be updated.
+
+![](V4.png)
+
+* _**Repays**_. When storage provider x repays or defaults on an amount m , the scaling factor will be updated.
+
+![](V5.png)
+
+At any given moment, the total variable-rate debt balance for storage provider x can be
+expressed as: 
+
+![](V6.png)

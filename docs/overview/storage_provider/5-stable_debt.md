@@ -4,12 +4,42 @@ sidebar_position: 5
 
 # Stable Rate Debt
 
-_**Stable Debt Mode**_ is a type of debt that has a fixed interest rate that remains the same for the life of the debt. The interest rate on stable rate debt does not fluctuate based on changes in market conditions, making it a predictable and stable financing option for both borrowers and lenders.
+STFIL also offers a stable-interest-rate model. The interest rate in this model remains fixed
+over a fixed borrowing period and is not affected by market supply and demand. The
+stable-interest-rate model is usually suitable for storage providers who want to obtain
+predictable returns over a specific period of time. For example, storage providers who want to
+pay fixed costs over a certain period of time.     
 
-Because the interest rate is fixed, borrowers can budget and plan for their future payments, knowing that the interest rate will remain the same throughout the life of the loan.
+It should be noted that since the stable-interest-rate does not change with market
+fluctuations during the fixed borrowing period, the fixed interest rate is always higher than the
+variable-interest-rate at any time. Additionally, the stable-interest-rate may cause market
+imbalance because it cannot be adjusted according to market supply and demand.    
 
-One advantage of stable rate debt is that it provides borrowers with a level of certainty and predictability in their borrowing costs. This can be especially important for borrowers with limited financial resources or who are on a tight budget. Stable rate debt can also provide a hedge against inflation, as borrowers will continue to pay the same interest rate even if FIL demand goes up.
+Overall, STFIL's stable-interest-rate model can provide more stable returns, but may limit
+market flexibility in some cases. Storage providers should choose the appropriate interest rate
+model according to their own needs.  
 
-On the other hand, stable rate debt may have higher initial interest rates compared to variable rate debt. Additionally, if market interest rates decline after the borrower has taken out stable rate debt, they may miss out on potential interest rate savings that they could have received with variable rate debt.
+For the stable-interest-rate model, the following concepts are introduced:
 
-In summary, stable rate debt provides a fixed interest rate that can provide borrowers with a predictable and stable financing option. However, borrowers should carefully consider their long-term financial goals and risk tolerance before choosing stable rate debt over variable rate debt.
+* _**SB<sub>(x)</sub>**_, The total amount of storage provider x's stable rate loan.
+The total amount of stable rate loans for the same storage provider x: 
+
+![](S1.png)
+
+* _**<span style={{borderTop: '2px solid #000000'}}>SR</span><sub>(x)</sub>**_, Weighted average of storage provider x's stable-interest-rate.
+The total amount of i stable loans and rates for the same storage provider x is calculated as: 
+
+![](S2.png)
+
+At any time, the total stable interest rate debt balance for storage provider x can be written as:
+
+![](S3.png)
+
+Overall stable-interest-rate._**<span style={{borderTop: '2px solid #000000'}}>SR</span><sub>t</sub>**_:
+* _**Brorrows**_. When initiating a stable loan with a loan amount of _**SB<sub>new</sub>**_ at an interest rate of _**SR<sub>t</sub>**_ :
+
+![](S4.png)
+
+* _**Repays**_. When the storage provider x repays a stable loan with an amount of_** SB<sub>i</sub>(x)**_ (with interest rate of _**SR<sub>i</sub>(x)**_ ):
+
+![](S5.png)
