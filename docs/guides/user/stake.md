@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Staking
+# Stake
 
 
 Here, we provide a step-by-step guide on how to stake your Fil to earn maximum yield.
