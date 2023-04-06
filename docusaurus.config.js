@@ -61,7 +61,7 @@ const config = {
         ],
     ],
     themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
                 title: '',
@@ -79,7 +79,7 @@ const config = {
                     {
                         label: 'Guides',
                         position: 'left',
-                        to: 'docs/guides/user/staking'
+                        to: 'docs/guides/user/stake'
                     },
                     {
                         label: 'Governance',
