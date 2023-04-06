@@ -10,7 +10,7 @@ STFIL has been implemented with security as priority. The system has been design
 
 | Description                              | Auditor                                                | Audit Type     | Date      |
 | ---------------------------------------- | ------------------------------------------------------ | -------------- | --------- |
-| v.1.1 Protocol                           | [Certik](./audits/PRE-preliminary-20230331T093601Z.pdf)   | Smart Contract | Apr. 2023 |
+| v.1.1 Protocol                           | [Certik](./audits/PRE-preliminary-20230404T142546Z.pdf)   | Smart Contract | Apr. 2023 |
 
 ## Bug Bounty
 
