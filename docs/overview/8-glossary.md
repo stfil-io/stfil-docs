@@ -39,5 +39,25 @@ The non-transferable interest accruing, stable rate tokenized borrows.
 
 The non-transferable interest accruing, variable rate tokenized borrows.
 
+### _Position Value_ 
+
+Total value of your farming position
+
+### _Debt Value_ 
+
+Total debt value of your farming position
+
+### _Equity Value_ 
+
+Estimated value you would get if you closed your position
+
+### _Current APR_ 
+
+APR calculated based on current leverage
+
+### _Liquidation Threshold_ 
+
+Debt Ratio threshold. Beyond this limit, your position could be liquidated
+
 
 
