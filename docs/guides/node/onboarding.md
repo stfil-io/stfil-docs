@@ -20,7 +20,13 @@ Select whether you want to delegate to the _**owner / beneficiary**_ and proceed
 
 This demonstration shows the process of delegating to a beneficiary using a multi-signature wallet. If you have a regular wallet, you only need to sign for one wallet.
 
- 💡 Signature: Here, you can sign using the Lotus client/FiveToken
+#### Difference in commission methods:
+
+1. _**Delegate Owner address:**_    After joining, you can obtain a loan leverage of 2 times. After completing KYC, you can obtain a maximum loan leverage of 3 times. The prerequisite is that you need to ensure that the owner address is the same to the beneficiary address, and you own the private key of that wallet.
+
+2. _**Delegate Beneficiary address:**_   After joining, you can obtain a loan leverage of 1.5 times. After completing KYC, you can obtain a maximum loan leverage of 2 times the assets.
+
+💡 **Signature**: Here, you can sign using the Lotus client/FiveToken
 
 #### Delegating to the owner/beneficiary involves two steps.
 
