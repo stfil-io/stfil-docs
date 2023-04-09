@@ -20,3 +20,15 @@ The STFIL protocol is an ecosystem of multiple networks, which is the main netwo
 | POOL_ADMIN                                                                         |                                                                                                                            | [f02117145](https://filfox.info/en/address/f02117145)                                                                   |                                                             |
 | CONTRACTS_ADMIN                                                                    |                                                                                                                            | [0x0d97E26489e1c1d0f799552F38C65F4a86288302](https://filfox.info/en/address/0x0d97E26489e1c1d0f799552F38C65F4a86288302) |                                                             |
 | EMERGENCY_ADMIN                                                                    |                                                                                                                            | [0xb1018C16E91B5e546e647b0B252Bf1569e50A617](https://filfox.info/en/address/0xb1018C16E91B5e546e647b0B252Bf1569e50A617) |                                                             |
+
+## Initial Parameter Recommendation
+
+The deployment of the staking pool needs to initialize some parameters, which are designed according to the economic model and liquidity, and these parameters have been verified. When changes to these parameters are due they will be announced and applied in the community.
+
+| Parameter                                   | Value                       |
+|---------------------------------------------|-----------------------------|
+| fee(treasury factor)                        | 1000                        |
+| maxBorrowRate                               | 462000000000000000000000000 |
+| optimalBorrowRate                           | 192000000000000000000000000 |
+| optimalUtilizationRate                      | 800000000000000000000000000 |
+| liquidationFactor(liquidation award factor) | 100                         |

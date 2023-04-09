@@ -20,3 +20,15 @@ The filecoin hyperspace testnet network deployment.
 | POOL_ADMIN                                                                         |                                                                                                                            | [t028143](https://hyperspace.filfox.info/en/address/t028143)                                                                       |                                                             |
 | CONTRACTS_ADMIN                                                                    |                                                                                                                            | [0x8559E3225630B977666f0e5B32f44549Ba8994E8](https://hyperspace.filfox.info/en/address/0x8559E3225630B977666f0e5B32f44549Ba8994E8) |                                                             |
 | EMERGENCY_ADMIN                                                                    |                                                                                                                            | [0x2115Cc2b1E220138E44D4C5c563a8a38387E29f1](https://hyperspace.filfox.info/en/address/0x2115Cc2b1E220138E44D4C5c563a8a38387E29f1) |                                                             |
+
+## Initial Parameter Recommendation
+
+The deployment of the staking pool needs to initialize some parameters, which are designed according to the economic model and liquidity, and these parameters have been verified. When changes to these parameters are due they will be announced and applied in the community.
+
+| Parameter                                   | Value                       |
+|---------------------------------------------|-----------------------------|
+| fee(treasury factor)                        | 1000                        |
+| maxBorrowRate                               | 490000000000000000000000000 |
+| optimalBorrowRate                           | 196000000000000000000000000 |
+| optimalUtilizationRate                      | 800000000000000000000000000 |
+| liquidationFactor(liquidation award factor) | 100                         |
