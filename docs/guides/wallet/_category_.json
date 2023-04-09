@@ -1,0 +1,10 @@
+{
+  "label": "STFIL Wallet",
+  "position": 3,
+  "collapsed": false,
+  "collapsible": false,
+  "link": {
+    "type": "generated-index",
+    "description": "STFIL wallet, which provides professional wallet management and message signing for Filecoin storage providers. The STFIL wallet disables the network and is safe and reliable offline."
+  }
+}
