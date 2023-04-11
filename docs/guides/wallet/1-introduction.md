@@ -26,4 +26,8 @@ STFIL Wallet, which provides professional wallet management and message signing 
 
 [Android Apk Link](https://github.com/stfil-io/wallet/releases/download/v1.0.0/app-release.apk)
 
-IOS has not been released, reviewing and processing
+[IOS TestFlight Link](https://testflight.apple.com/join/7xieMNtx)
+
+IOS application download and use. If there is a network request, directly select 'Disallow/不允许'. This application can be used without the need for networking.
+
+![](./imgs/w11.jpeg)
