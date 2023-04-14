@@ -1,0 +1,10 @@
+{
+  "label": "FEVM-compatible Wallet Usage",
+  "position": 4,
+  "collapsed": false,
+  "collapsible": false,
+  "link": {
+    "type": "generated-index",
+    "description": "We have compiled a guide on How to transfer to 0x/f4 address, geared towards using FIL in various applications powered by the Filecoin Ethereum Virtual Machine (FEVM) which launched in March 2023."
+  }
+}

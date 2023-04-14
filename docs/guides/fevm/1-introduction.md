@@ -1,12 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# How to buy FIL & FEVM compatible wallet usage
+# Introduction
 
-We have compiled a guide on How to Buy FIL, geared towards using FIL in various applications powered by the Filecoin Ethereum Virtual Machine (FEVM) which launched in March 2023.
-
-**Disclaimers**: This information is for informational purposes only and is not intended to be investment, financial, legal or other advice. This information is not an endorsement, offer or recommendation to use any particular service or product. Although we try to ensure all information is accurate and up to date, occasionally unintended errors and misprints may occur. Links provided to third-party websites are for informational purposes only, and we are not responsible for the accuracy of content on third-party sites.
+Understand the composition of Fil wallet address and set up your 0x/f4 wallet. Understand the support of each exchange for 0x/f4 wallet address.
 
 ## Understand FIL Wallet Addresses
 
@@ -23,19 +21,13 @@ You can recognize the address type from any Filecoin address via what we call th
 Example address: f1s5hbfgxihcbdj5jc35kv2eyoqpqdbahyo67ord
 Since this digit immediately following “f” is 1, this is an f1 address type.
 
-### Why do these different address types exist?
-
-Each address space fits a particular need for the Filecoin network. Remember that unlike other blockchains, Filecoin has a native economy providing decentralized data services (such as storage and retrieval). These different address types help the different parts of the Filecoin ecosystem operate effectively together.
-
 ### Wallets
 
 #### Set up your 0x / f410 wallet FEVM-compatible wallet
 
-[Metamask](https://metamask.io) - Detailed step-by-step instructions on how to do so can be found [here](https://docs.filecoin.io/networks/mainnet/add-to-metamask/).
+[Metamask](https://metamask.io) - Quickly add Filecoin network on how to do so can be found [here](https://chainlist.org/chain/314).
 
 [OKX Wallet](https://www.okx.com/cn/web3)
-
-[Brave Wallet](https://brave.com/zh/wallet/)
 
 [Fox Wallet](https://foxwallet.com/)
 
@@ -77,19 +69,6 @@ The exchange will likely show either an error suggesting the address type cannot
 ##### What happens if I make a FIL transfer from my 0x / f410 wallet (e.g. Metamask) TO an exchange not listed here?
 
 If you transfer FIL from an f410 wallet address that the receiving exchange does not support, your transfer may not be displayed in your holdings. The FIL you sent will still exist at the receiving address but the exchange will not reflect your balance until they upgrade to recognize 0x / f410 wallet addresses.
-
-
-## FEVM compatible wallet usage(transfer to 0x / f410 address)
-
-If you are a hardware wallet, a decentralized wallet or an application such as an exchange that does not support the address starting with f and the FEVM wallet address format, you can choose a supported wallet for transfer
-
-### Hardware wallets do not support f-format addresses
-
-The hardware wallet is transferred to an application platform that supports 0x/f410 address (for example: [OKEX](https://www.okx.com/cn/markets/prices/filecoin-fil), [Fox Wallet](https://foxwallet.com/)), and then transferred to 0x/f410 address through the application
-
-### The exchange does not support 0x / f410 addres of FEVM
-
-Establish the f1 wallet address of the Filecoin network through [Fox Wallet](https://foxwallet.com/), transfer it from the exchange to the f1 address, and finally transfer from the f1 address to the 0x/f4 address through [Fox Wallet](https://foxwallet.com/)
 
 
 **Thanking -** many sources for the above content [here](https://filecointldr.io/get-fil).
