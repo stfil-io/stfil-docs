@@ -8,17 +8,17 @@ sidebar_position: 2
 
 Storage providers can generate wallets with private keys and mnemonic words
 
-#### Import private key
+#### 1. Import private key
 
-![](./imgs/w1.png)
+![](./imgs/w1.jpeg)
 
-#### Set password
+#### 2. Set password
 
-![](./imgs/w2.png)
+![](./imgs/w2.jpeg)
 
-#### Account view
+#### 3. Account view
 
-![](./imgs/w3.png)
+![](./imgs/w3.jpeg)
 
 
 ### How to interact with the platform？
@@ -29,18 +29,32 @@ The wallet and the platform can exchange messages by scanning QR codes
 
 ![](./imgs/w6.png)
 
-![](./imgs/w4.png)
+#### 1. Choose Sign
+
+![](./imgs/w4.jpeg)
+
+#### 2. Scan the QR code
 
 ![](./imgs/w5.png)
 
 ### Generate signed message, QR code or paste message to the platform
 
-![](./imgs/w7.png)
+### 1. QR code scanning
 
-![](./imgs/w8.png)
+#### View QR code
 
-### Scan the code or paste the message on the platform
+![](./imgs/w7.jpeg)
 
-![](./imgs/w9.png)
+#### Scan the QR code on the platform
 
-![](./imgs/w10.png)
+![](./imgs/w9.jpeg)
+
+### 2. Paste message way
+
+#### Copy signed message
+
+![](./imgs/w8.jpeg)
+
+#### Paste to platform
+
+![](./imgs/w10.jpeg)
