@@ -45,16 +45,16 @@ it’s important to note that not all centralized exchanges that support FIL tra
 The list of exchanges below show which wallet address types each supports:
 
 | Company                                                                                 | Allows FIL transfer TO f410 address | Allows FIL transfer TO 0x address | Allows FIL deposits FROM 0x / f410 addresses |
-|-----------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------|----------------------------------------------|
-| [Anchorage](https://www.anchorage.com/insights/filecoin-lending-with-anchorage-digital) | 支持                                 | 支持                                | 支持                                           |
-| [Gemini](https://www.gemini.com/prices/filecoin)                                        | 支持                                 | 不支持                               | 支持                                           |
-| [Bittrex](https://global.bittrex.com/)                                                  | 支持                                 | 支持                                | 支持                                           |
-| [Btcturk](https://www.btcturk.com/)                                                     | 支持                                 | 支持                                | 支持                                           |
-| [Kraken](https://www.kraken.com/)                                                       | 支持                                 | 支持                                | 支持                                           |
-| [Coinbase](https://www.coinbase.com/price/filecoin)                                     | 不支持                                | 不支持                               | 支持                                           |
-| [Binance](https://www.binance.com/en/price/filecoin)                                    | 不支持                                | 不支持                               | 不支持                                          |
-| [OKEX](https://www.okx.com/cn/markets/prices/filecoin-fil)                              | 支持                                  | 支持                                | 支持                                           |
-| [Huobi](https://www.huobi.com/zh-hk/crypto/buy-FIL/)                                    | 不支持                                 | 不支持                               | 支持                                           |
+|-----------------------------------------------------------------------------------------|-------------------------|-------------------------|------------------------------|
+| [Anchorage](https://www.anchorage.com/insights/filecoin-lending-with-anchorage-digital) | support                       | support                        | support                             |
+| [Gemini](https://www.gemini.com/prices/filecoin)                                        | support                       | not support                     | support                             |
+| [Bittrex](https://global.bittrex.com/)                                                  | support                       | support                        | support                             |
+| [Btcturk](https://www.btcturk.com/)                                                     | support                       | support                        | support                             |
+| [Kraken](https://www.kraken.com/)                                                       | support                       | support                        | support                             |
+| [Coinbase](https://www.coinbase.com/price/filecoin)                                     | not support                     | not support                    | support                             |
+| [Binance](https://www.binance.com/en/price/filecoin)                                    | not support                     | not support                     | not support                          |
+| [OKEX](https://www.okx.com/cn/markets/prices/filecoin-fil)                              | support                        | support                        | support                             |
+| [Huobi](https://www.huobi.com/zh-hk/crypto/buy-FIL/)                                    | not support                     | not support                    | support                             |
 
 **Disclaimer**: Cryptocurrency regulations vary widely by country, and may change over time. Some exchanges may limit their services to certain countries. Before using any exchange, please confirm you satisfy any applicable geographical restrictions and local laws.
 
