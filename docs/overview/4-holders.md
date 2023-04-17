@@ -15,3 +15,7 @@ stFIL can be used and traded like other ERC-20 tokens. Users can do anything the
 STFIL protocol provides loans to Storage Provider nodes for sector pledge using FIL from the liquidity pool.  Storage Providers use a portion of the block rewards they receive to pay interest to stFIL holders.  STFIL Protocol aggregates the penalties and losses of all nodes and amortizes each user equally, minimizing the impact on individual users.  Penalties are first covered by the balance of node provided by Storage Providers, followed by the risk reserve fund of the STFIL, and finally by stFIL holders in the pool.
 
 Currently, STFIL protocol is designed to accept a minimum of 1 FIL tokens for staking, with no maximum limit.
+
+Hurry up to stake your FIL to earn liquidity income and enjoy the value-added brought by time.
+
+How to stake your FIL: **https://docs.stfil.io/docs/guides/user/stake**
