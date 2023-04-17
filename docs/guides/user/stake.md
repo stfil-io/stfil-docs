@@ -30,13 +30,27 @@ The exchange/hardware wallet held does not support 0x/f4 wallet how to transfer:
 
 Visit **https://app.stfil.io** in MetaMask browser
 
+#### 1. Open Browser
+
 ![](imgs/k1.jpeg)
+
+#### 2. Input *https://app.stfil.io*
+
 ![](imgs/k2.jpeg)
 ![](imgs/k3.jpeg)
+
+#### 3. Connect Wallet
+
 ![](imgs/k4.jpeg)
 ![](imgs/k5.jpeg)
+
+#### 4. Stake your FIL
+
 ![](imgs/s1.jpeg)
-![](imgs/s2.jpeg)
+![](imgs/s2.png)
+
+#### 5. Confirm message
+
 ![](imgs/s3.jpeg)
 ![](imgs/s4.jpeg)
 ![](imgs/s5.jpeg)

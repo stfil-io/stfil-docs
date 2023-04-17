@@ -13,13 +13,26 @@ To Unstake your Fil from our vaults(redeem Fil from stFil), follow the steps bel
 
 Visit **https://app.stfil.io** in MetaMask browser
 
+#### 1. Open Browser
 ![](imgs/k1.jpeg)
 ![](imgs/k2.jpeg)
+
+#### 2. Input *https://app.stfil.io*
+
 ![](imgs/k3.jpeg)
+
+#### 3. Connect Wallet
+
 ![](imgs/k4.jpeg)
 ![](imgs/k5.jpeg)
+
+#### 4. Unstake your FIL
+
 ![](imgs/s1.jpeg)
 ![](imgs/ss1.jpeg)
+
+#### 5. Confirm message
+
 ![](imgs/ss2.jpeg)
 ![](imgs/ss3.jpeg)
 ![](imgs/ss4.jpeg)
