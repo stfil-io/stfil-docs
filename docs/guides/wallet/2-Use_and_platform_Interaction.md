@@ -10,6 +10,8 @@ Storage providers can generate wallets with private keys and mnemonic words
 
 #### 1. Import private key
 
+![](./imgs/xxx.png)
+
 ![](./imgs/w1.jpeg)
 
 #### 2. Set password
